@@ -1,0 +1,11 @@
+.referAndRegister {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 100px 0;
+}
+@media only screen and (max-width: 767px) {
+  .referAndRegister {
+    padding: 60px 0;
+  }
+}

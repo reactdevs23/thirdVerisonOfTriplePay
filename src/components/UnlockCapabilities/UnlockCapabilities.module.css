@@ -1,0 +1,72 @@
+.wrapper {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+.headingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.badge {
+  border-radius: 32px;
+  background: rgba(41, 105, 255, 0.06);
+  padding: 2px 12px;
+  margin: 0 auto;
+}
+.capabilities {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  width: calc(33.33%);
+}
+.arrow {
+  font-size: 18px;
+}
+@media only screen and (max-width: 1199px) {
+  .card {
+    padding: 20px;
+    gap: 12px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .card {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    padding: 60px 0;
+  }
+  .card {
+    padding: 18px;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .card {
+    width: 100%;
+  }
+}
